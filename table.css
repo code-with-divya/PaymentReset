@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info-table, .item-table, .total-table, .bank-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+   
+}
+
+.info-table td, .item-table th, .item-table td, .total-table td, .bank-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+.info-table input, .item-table input, .total-table input, .bank-table input {
+    width: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.item-table th {
+    background-color: #f2f2f2;
+}
+
+.footer-text {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.tab-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tab-group button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #9ea39e;
+    color: white;
+    cursor: pointer;
+}
+
+.tab-group button:hover {
+    background-color: #45a049;
+}
+.btn{
+    background-color: #5f635f69;
+}
+
+.table-data{
+  height: 30px;
+}
+.table-data1{
+    background-color: rgba(161, 152, 152, 0.318);
+    height: 30px;
+}
+.sign{
+    display: flex;
+    justify-content: space-around;
+}
